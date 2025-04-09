@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Usuarios.aspx" />
     <Content Include="Web.config" />
     <Content Include="CrearRutina.aspx" />
   </ItemGroup>
@@ -78,6 +79,13 @@
     </Compile>
     <Compile Include="CrearRutina.aspx.designer.cs">
       <DependentUpon>CrearRutina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.aspx.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuarios.aspx.designer.cs">
+      <DependentUpon>Usuarios.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

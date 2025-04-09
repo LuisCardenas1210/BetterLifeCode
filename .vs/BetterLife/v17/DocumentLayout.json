@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lumac\\source\\repos\\BetterLife\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|c:\\users\\lumac\\source\\repos\\betterlife\\betterlife\\crearrutina.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|solutionrelative:betterlife\\crearrutina.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|C:\\Users\\lumac\\source\\repos\\BetterLife\\betterlife\\crearrutina.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|c:\\users\\lumac\\source\\repos\\betterlife\\betterlife\\crearrutina.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|solutionrelative:betterlife\\crearrutina.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|C:\\Users\\lumac\\source\\repos\\BetterLife\\betterlife\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|solutionrelative:betterlife\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\CrearRutina.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|solutionrelative:BetterLife\\CrearRutina.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|C:\\Users\\lumac\\source\\repos\\BetterLife\\betterlife\\usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|solutionrelative:betterlife\\usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|C:\\Users\\lumac\\source\\repos\\BetterLife\\betterlife\\usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|solutionrelative:betterlife\\usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|solutionrelative:BetterLife\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuarios.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\Usuarios.aspx.cs",
+              "RelativeDocumentMoniker": "BetterLife\\Usuarios.aspx.cs",
+              "ToolTip": "C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\Usuarios.aspx.cs",
+              "RelativeToolTip": "BetterLife\\Usuarios.aspx.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T04:45:26.997Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Usuarios.aspx",
+              "DocumentMoniker": "C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\Usuarios.aspx",
+              "RelativeDocumentMoniker": "BetterLife\\Usuarios.aspx",
+              "ToolTip": "C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\Usuarios.aspx",
+              "RelativeToolTip": "BetterLife\\Usuarios.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-09T04:35:37.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\Web.config",
               "RelativeDocumentMoniker": "BetterLife\\Web.config",
               "ToolTip": "C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\Web.config",
               "RelativeToolTip": "BetterLife\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-04-02T18:32:32.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CrearRutina.aspx.cs",
               "DocumentMoniker": "C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\CrearRutina.aspx.cs",
               "RelativeDocumentMoniker": "BetterLife\\CrearRutina.aspx.cs",
               "ToolTip": "C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\CrearRutina.aspx.cs",
               "RelativeToolTip": "BetterLife\\CrearRutina.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAABgmZmZmZkhwCMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T18:32:02.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CrearRutina.aspx",
               "DocumentMoniker": "C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\CrearRutina.aspx",
               "RelativeDocumentMoniker": "BetterLife\\CrearRutina.aspx",
               "ToolTip": "C:\\Users\\lumac\\source\\repos\\BetterLife\\BetterLife\\CrearRutina.aspx",
               "RelativeToolTip": "BetterLife\\CrearRutina.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-04-02T18:30:40.447Z",
               "EditorCaption": ""

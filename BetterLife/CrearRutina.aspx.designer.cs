@@ -11,7 +11,7 @@ namespace BetterLife
 {
 
 
-    public partial class WebForm1
+    public partial class CrearRutina
     {
 
         /// <summary>
@@ -60,40 +60,40 @@ namespace BetterLife
         protected global::System.Web.UI.WebControls.TextBox txtEstatura;
 
         /// <summary>
-        /// Control txtAutores.
+        /// Control txtBrazoR.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAutores;
+        protected global::System.Web.UI.WebControls.TextBox txtBrazoR;
 
         /// <summary>
-        /// Control txtPais.
+        /// Control txtBrazoC.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPais;
+        protected global::System.Web.UI.WebControls.TextBox txtBrazoC;
 
         /// <summary>
-        /// Control txtSinopsis.
+        /// Control txtCintura.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSinopsis;
+        protected global::System.Web.UI.WebControls.TextBox txtCintura;
 
         /// <summary>
-        /// Control txtCarrera.
+        /// Control txtPierna.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCarrera;
+        protected global::System.Web.UI.WebControls.TextBox txtPierna;
 
         /// <summary>
         /// Control txtRutina.

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CrearRutina.aspx.cs" Inherits="BetterLife.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CrearRutina.aspx.cs" Inherits="BetterLife.CrearRutina" %>
 
 <!DOCTYPE html>
 
@@ -27,23 +27,23 @@
             <h3>Medidas</h3>
 
             <asp:Label runat="server" Text="Brazo(relajado): " />
-            <asp:TextBox ID="txtAutores" runat="server"></asp:TextBox><br />
+            <asp:TextBox ID="txtBrazoR" runat="server"></asp:TextBox><br />
 
             <asp:Label runat="server" Text="Brazo(contraido): " />
-            <asp:TextBox ID="txtPais" runat="server"></asp:TextBox><br />
+            <asp:TextBox ID="txtBrazoC" runat="server"></asp:TextBox><br />
 
             <asp:Label runat="server" Text="Cintura: " />
-            <asp:TextBox ID="txtSinopsis" runat="server" TextMode="MultiLine"></asp:TextBox><br />
+            <asp:TextBox ID="txtCintura" runat="server"></asp:TextBox><br />
 
             <asp:Label runat="server" Text="Pierna: " />
-            <asp:TextBox ID="txtCarrera" runat="server"></asp:TextBox><br />
+            <asp:TextBox ID="txtPierna" runat="server"></asp:TextBox><br />
 
             <h3>Rutina</h3>
 
             <asp:Label runat="server" Text="Rutina: " /> <br/>
             <asp:TextBox ID="txtRutina" runat="server" Height="214px" Width="602px"></asp:TextBox><br />
             
-            <asp:Button ID="btnAgregar" runat="server" Text="Agregar Libro" OnClick="btnAgregar_Click" /><br /><br />
+            <asp:Button ID="btnAgregar" runat="server" Text="Agregar rutina" OnClick="btnAgregar_Click" /><br /><br />
         
         </div>
     </form>
