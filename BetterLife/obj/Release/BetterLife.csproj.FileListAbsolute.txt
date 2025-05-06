@@ -57,3 +57,7 @@ C:\Users\lumac\source\repos\BetterLife\BetterLife\obj\Release\BetterLife.csproj.
 C:\Users\lumac\source\repos\BetterLife\BetterLife\obj\Release\BetterLife.csproj.Up2Date
 C:\Users\lumac\source\repos\BetterLife\BetterLife\obj\Release\BetterLife.dll
 C:\Users\lumac\source\repos\BetterLife\BetterLife\obj\Release\BetterLife.pdb
+C:\Users\lumac\source\repos\BetterLife\BetterLife\bin\EntityFramework.dll
+C:\Users\lumac\source\repos\BetterLife\BetterLife\bin\EntityFramework.SqlServer.dll
+C:\Users\lumac\source\repos\BetterLife\BetterLife\bin\EntityFramework.xml
+C:\Users\lumac\source\repos\BetterLife\BetterLife\bin\EntityFramework.SqlServer.xml

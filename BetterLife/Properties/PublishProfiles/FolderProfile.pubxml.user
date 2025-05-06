@@ -3,15 +3,21 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>C:\Users\lumac\Documents\WebBetterLife</_PublishTargetUrl>
-    <History>True|2025-04-09T15:45:40.2964639Z||;True|2025-04-08T22:59:50.9781309-06:00||;True|2025-04-08T22:42:06.5183004-06:00||;</History>
+    <History>False|2025-05-06T23:03:11.9125735Z||;True|2025-05-06T16:56:06.7536868-06:00||;True|2025-05-06T16:38:00.5153466-06:00||;True|2025-05-04T18:04:11.7201744-06:00||;True|2025-05-04T17:45:06.4729258-06:00||;True|2025-05-01T22:56:21.7551439-06:00||;True|2025-05-01T17:19:58.9774890-06:00||;True|2025-04-09T23:47:04.7339255-06:00||;True|2025-04-09T09:45:40.2964639-06:00||;True|2025-04-08T22:59:50.9781309-06:00||;True|2025-04-08T22:42:06.5183004-06:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/BetterLife.dll">
-      <publishTime>04/09/2025 09:45:37</publishTime>
+      <publishTime>05/06/2025 17:47:32</publishTime>
     </File>
     <File Include="bin/BetterLife.pdb">
-      <publishTime>04/09/2025 09:45:37</publishTime>
+      <publishTime>05/06/2025 17:47:32</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2020 15:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/16/2020 15:38:56</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>09/05/2018 17:10:50</publishTime>
@@ -164,13 +170,19 @@
       <publishTime>08/08/2018 13:18:16</publishTime>
     </File>
     <File Include="CrearRutina.aspx">
-      <publishTime>04/09/2025 09:41:21</publishTime>
+      <publishTime>04/09/2025 23:46:04</publishTime>
     </File>
     <File Include="Usuarios.aspx">
-      <publishTime>04/09/2025 07:21:13</publishTime>
+      <publishTime>04/09/2025 23:46:22</publishTime>
+    </File>
+    <File Include="Views/CrearRutina.aspx">
+      <publishTime>04/05/2025 18:24:00</publishTime>
+    </File>
+    <File Include="Views/Usuarios.aspx">
+      <publishTime>04/09/2025 23:46:22</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/09/2025 09:45:38</publishTime>
+      <publishTime>01/05/2025 22:56:21</publishTime>
     </File>
   </ItemGroup>
 </Project>
