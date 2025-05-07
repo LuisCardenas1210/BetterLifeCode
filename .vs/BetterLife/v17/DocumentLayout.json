@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\lumac\\source\\repos\\BetterLife\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|C:\\Users\\lumac\\source\\repos\\BetterLife\\betterlife\\views\\crearrutina.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|c:\\users\\lumac\\source\\repos\\betterlife\\betterlife\\views\\crearrutina.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|solutionrelative:betterlife\\views\\crearrutina.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|c:\\users\\lumac\\source\\repos\\betterlife\\betterlife\\views\\usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|C:\\Users\\lumac\\source\\repos\\BetterLife\\betterlife\\views\\usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|solutionrelative:betterlife\\views\\usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|c:\\users\\lumac\\source\\repos\\betterlife\\betterlife\\views\\usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|C:\\Users\\lumac\\source\\repos\\BetterLife\\betterlife\\views\\usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{2797D758-79A2-4810-A16B-1274BFB1627B}|BetterLife\\BetterLife.csproj|solutionrelative:betterlife\\views\\usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -42,8 +42,7 @@
               "RelativeToolTip": "BetterLife\\Views\\Usuarios.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-06T23:40:32.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T23:40:32.769Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "BetterLife\\Views\\Usuarios.aspx.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T23:34:50.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T23:34:50.653Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "BetterLife\\Models\\BetterLifeContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T04:42:54.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-02T04:42:54.436Z"
             },
             {
               "$type": "Document",
