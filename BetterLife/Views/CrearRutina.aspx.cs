@@ -4,60 +4,83 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
+using System.Web.UI.WebControls;   
 using BetterLife.Models;
 
 namespace BetterLife
 {
-	public partial class CrearRutina : System.Web.UI.Page
+    
+    public partial class CrearRutina : System.Web.UI.Page
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
 			if (!IsPostBack)
 			{
 				CargarUsuario();
-			}
+
+                txtCliente.ReadOnly = true;
+                txtEdad.ReadOnly = true;
+                txtPeso.ReadOnly = true;
+                txtEstatura.ReadOnly = true;
+                txtBrazoR.ReadOnly = true;
+                txtBrazoC.ReadOnly = true;
+                txtCintura.ReadOnly = true;
+                txtPierna.ReadOnly = true;
+            }
 		}
 
-        protected void btnAgregar_Click(object sender, EventArgs e)
+        protected void btn_Click(object sender, EventArgs e)
         {
-            try
+            Button btn = (Button)sender;
+            if (btn.ID == "btnAgregar")
             {
-                string idUsuarioQS = Request.QueryString["id"];
-                if (string.IsNullOrEmpty(idUsuarioQS))
-                {
-                    ScriptManager.RegisterStartupScript(this, GetType(), "alert", "alert('ID de usuario no encontrado en la URL');", true);
+                if (!Page.IsValid)
                     return;
-                }
 
-                int idUsuario = Convert.ToInt32(idUsuarioQS);
-                string rutinaTexto = txtRutina.Text;
-
-                using (var context = new BetterLifeContext())
+                try
                 {
-                    var rutina = new Rutinas(); 
-                    rutina.Rutina = rutinaTexto;
-                    rutina.id_Usuario = idUsuario;
-                    rutina.id_Profesional = null;
+                    string idUsuarioQS = Request.QueryString["id"];
+                    if (string.IsNullOrEmpty(idUsuarioQS))
+                    {
+                        ScriptManager.RegisterStartupScript(this, GetType(), "alert", "alert('ID de usuario no encontrado en la URL');", true);
+                        return;
+                    }
 
-                    ScriptManager.RegisterStartupScript(this, GetType(), "alert", $"alert('Rutina preparada: {rutinaTexto}, Usuario: {idUsuario}');", true);
+                    int idUsuario = Convert.ToInt32(idUsuarioQS);
+                    string rutinaTexto = txtRutina.Text;
 
-                    context.Rutinas.Add(rutina);
-                    context.SaveChanges();
+                    using (var context = new BetterLifeContext())
+                    {
+                        var rutina = new Rutinas();
+                        rutina.Rutina = rutinaTexto;
+                        rutina.id_Usuario = idUsuario;
+                        rutina.id_Profesional = null;
+
+                        //ScriptManager.RegisterStartupScript(this, GetType(), "alert", $"alert('Rutina preparada: {rutinaTexto}, Usuario: {idUsuario}');", true);
+
+                        context.Rutinas.Add(rutina);
+                        context.SaveChanges();
+                    }
+
+                    lblMensaje.Text = "Rutina ingresada";
+                    lblMensaje.ForeColor = System.Drawing.Color.Green;
+                    //Response.Redirect("Usuarios.aspx");
                 }
+                catch (Exception ex)
+                {
+                    string fullError = ex.Message;
+                    if (ex.InnerException != null)
+                        fullError += " | Inner: " + ex.InnerException.Message;
+                    if (ex.InnerException?.InnerException != null)
+                        fullError += " | Inner-Inner: " + ex.InnerException.InnerException.Message;
 
-                Response.Redirect("Usuarios.aspx");
+                    Response.Write("<pre>" + Server.HtmlEncode(fullError) + "</pre>");
+                    Response.End();
+                }
             }
-            catch (Exception ex)
+            else if (btn.ID == "btnRegresar")
             {
-                string fullError = ex.Message;
-                if (ex.InnerException != null)
-                    fullError += " | Inner: " + ex.InnerException.Message;
-                if (ex.InnerException?.InnerException != null)
-                    fullError += " | Inner-Inner: " + ex.InnerException.InnerException.Message;
-
-                Response.Write("<pre>" + Server.HtmlEncode(fullError) + "</pre>");
-                Response.End();
+                Response.Redirect("Usuarios.aspx");
             }
         }
         private void CargarUsuario()
@@ -73,7 +96,7 @@ namespace BetterLife
 
                 if (usuario != null)
                 {
-                    txtCliente.Text = usuario.Nombre_Usuario + " " + usuario.Apellidos_Usuario;
+                    this.txtCliente.Text = usuario.Nombre_Usuario + " " + usuario.Apellidos_Usuario;
                     txtEdad.Text = usuario.Edad_Usuario.ToString();
                     txtPeso.Text = usuario.Peso_Usuario.ToString();
                     txtEstatura.Text = usuario.Estatura;
@@ -83,6 +106,11 @@ namespace BetterLife
                     txtPierna.Text = usuario.Pierna;
                 }
             }
+        }
+        protected void cvRutina_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            string value = args.Value?.Trim();
+            args.IsValid = !string.IsNullOrEmpty(value) && value.Length >= 35 && value.Length <= 4000;
         }
 
     }

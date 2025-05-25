@@ -1,0 +1,17 @@
+{
+    "settings": {
+        "documentationRules": {
+            "companyName": "BetterLife",
+            "documentInternalElements": true,
+            "documentPrivateElements": false,
+            "fileNamingConvention": "metadata"
+        },
+        "orderingRules": {
+            "usingDirectivesPlacement": "outsideNamespace",
+            "systemUsingDirectivesFirst": true
+        },
+        "layoutRules": {
+            "newlineAtEndOfFile": "require"
+        }
+    }
+}
