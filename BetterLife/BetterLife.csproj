@@ -147,12 +147,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Global.asax" />
     <Content Include="Scripts\ValidacionesCrearRutina.js" />
     <Content Include="Views\Usuarios.aspx" />
     <Content Include="Web.config" />
     <Content Include="Views\CrearRutina.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Models\BetterLifeContext.cs" />
     <Compile Include="Models\POCORutina.cs" />
     <Compile Include="Models\POCOProfesional.cs" />

@@ -6,6 +6,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>BetterLife Crear Rutina</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -41,9 +42,9 @@
             <h3>Rutina</h3>
 
             <asp:Label runat="server" Text="Rutina: " /> <br/>
-            <asp:TextBox ID="txtRutina" runat="server" TextMode="MultiLine" Rows="5" Columns="40"></asp:TextBox><br/><br/>
+            <asp:TextBox ID="txtRutina" runat="server" TextMode="MultiLine" Rows="5" Columns="40" ClientIDMode="Static"></asp:TextBox><br/><br/>
             
-            <asp:Label runat="server" ID="lblMensaje" Text=""/> <br/>
+            <asp:Label runat="server" ID="lblMensaje" Text="" ClientIDMode="Static"/> <br/>
 
             <!-- Validadores -->
             <asp:RequiredFieldValidator 

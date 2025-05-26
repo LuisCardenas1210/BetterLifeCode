@@ -42,16 +42,16 @@
             <h3>Rutina</h3>
 
             <asp:Label runat="server" Text="Rutina: " /> <br/>
-            <asp:TextBox ID="txtRutina" runat="server" TextMode="MultiLine" Rows="5" Columns="40"></asp:TextBox><br/><br/>
+            <asp:TextBox ID="txtRutina" runat="server" TextMode="MultiLine" Rows="5" Columns="40" ClientIDMode="Static"></asp:TextBox><br/><br/>
             
-            <asp:Label runat="server" ID="lblMensaje" Text=""/> <br/>
+            <asp:Label runat="server" ID="lblMensaje" Text="" ClientIDMode="Static"/> <br/>
 
             <!-- Validadores -->
             <asp:RequiredFieldValidator 
                 ID="rfvRutina" 
                 runat="server"
                 ControlToValidate="txtRutina"
-                ErrorMessage="El campo rutina es obligatorio."
+                ErrorMessage="El campo rutina es obligatorio"
                 Display="Dynamic"
                 ForeColor="Red" />
 
@@ -59,7 +59,7 @@
                 ID="cvRutina" 
                 runat="server"
                 ControlToValidate="txtRutina"
-                ErrorMessage="La rutina debe tener entre 35 y 4000 caracteres."
+                ErrorMessage="La rutina debe tener entre 35 y 4000 caracteres"
                 OnServerValidate="cvRutina_ServerValidate"
                 ClientValidationFunction="validateRutinaLength"
                 Display="Dynamic"

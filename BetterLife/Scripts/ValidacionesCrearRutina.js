@@ -1,4 +1,8 @@
 ﻿function validateRutinaLength(sender, args) {
-    const value = args.Value.trim();
-    args.IsValid = value.length >= 35 && value.length <= 4000;
+    var rutina = document.getElementById("txtRutina").value;
+    args.IsValid = rutina.length >= 35 && rutina.length <= 4000;
 }
+
+$(function () {
+    $("#lblMensaje").text("");
+});

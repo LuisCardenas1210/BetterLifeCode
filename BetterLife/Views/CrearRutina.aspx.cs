@@ -14,7 +14,8 @@ namespace BetterLife
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-			if (!IsPostBack)
+            Page.UnobtrusiveValidationMode = UnobtrusiveValidationMode.WebForms;
+            if (!IsPostBack)
 			{
 				CargarUsuario();
 
@@ -64,7 +65,6 @@ namespace BetterLife
 
                     lblMensaje.Text = "Rutina ingresada";
                     lblMensaje.ForeColor = System.Drawing.Color.Green;
-                    //Response.Redirect("Usuarios.aspx");
                 }
                 catch (Exception ex)
                 {
@@ -74,8 +74,8 @@ namespace BetterLife
                     if (ex.InnerException?.InnerException != null)
                         fullError += " | Inner-Inner: " + ex.InnerException.InnerException.Message;
 
-                    Response.Write("<pre>" + Server.HtmlEncode(fullError) + "</pre>");
-                    Response.End();
+                    lblMensaje.Text = "Error al guardar rutina: " + Server.HtmlEncode(fullError);
+                    lblMensaje.ForeColor = System.Drawing.Color.Red;
                 }
             }
             else if (btn.ID == "btnRegresar")
